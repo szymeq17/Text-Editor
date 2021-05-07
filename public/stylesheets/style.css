@@ -1,8 +1,65 @@
 body {
-  padding: 50px;
+  padding: 10px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
-a {
-  color: #00B7FF;
+#title {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: #3366CC;
+  width: 300px;
+  padding: 5px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+#tools {
+  margin-top: 20px;
+  background-color: #CCCCCC;
+  padding: 7px;
+  border-radius: 5px;
+}
+
+.tool {
+  margin-right: 20px;
+  margin-left: 10px;
+}
+
+.tool-img {
+  width: 25px;
+  padding: 2px;
+}
+
+.tool-img-active {
+  background-color: #e2e2e2;
+}
+
+.tool-img:hover {
+  background-color: #e2e2e2;
+}
+
+#editor {
+  margin-top: 10px;
+  height: 400px;
+  overflow: auto;
+  border: 1px solid gray;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.json-btn {
+  font-weight: bold;
+  margin-top: 10px;
+  margin-right: 20px;
+  width: 150px;
+  height: 35px;
+  background-color: #CCCCCC;
+  border: 0px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.json-btn:hover {
+  background-color: #3366CC;
 }
