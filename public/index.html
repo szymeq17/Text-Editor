@@ -9,13 +9,14 @@
     <div id="title">Simple Text Editor</div>
     <div id="workspace">
         <div id="tools">
-            <a class="tool" href="javascript:void(0)"><img class="tool-img" src="images/bold.png" alt="bold"></a>
-            <a class="tool" href="javascript:void(0)"><img class="tool-img" src="images/italic-text.png" alt="italic"></a>
-            <a class="tool" href="javascript:void(0)"><img class="tool-img" src="images/list-interface-symbol.png" alt="list"></a>
+            <a id="bold-tool" class="tool" href="javascript:void(0)"><img class="tool-img" src="images/bold.png" alt="bold"></a>
+            <a id="italic-tool" class="tool" href="javascript:void(0)"><img class="tool-img" src="images/italic-text.png" alt="italic"></a>
+            <a id="list-tool" class="tool" href="javascript:void(0)"><img class="tool-img" src="images/list-interface-symbol.png" alt="list"></a>
         </div>
         <div id="editor" contenteditable="true"></div>
         <button class="json-btn" id="to-json-btn">Get JSON file</button>
         <button class="json-btn" id="from-json-btn">Upload JSON file</button>
+        <input id="file-picker" type="file" style="display: none" onchange="insertTextToEditor(this);">
     </div>
 
     <script src="javascripts/editor.js"></script>

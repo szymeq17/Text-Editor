@@ -29,10 +29,7 @@ body {
 .tool-img {
   width: 25px;
   padding: 2px;
-}
-
-.tool-img-active {
-  background-color: #e2e2e2;
+  border-radius: 5px;
 }
 
 .tool-img:hover {
